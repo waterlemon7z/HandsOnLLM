@@ -1,0 +1,17 @@
+[project]
+name = "handsonllm"
+version = "0.1.0"
+requires-python = ">=3.11,<3.13"
+dependencies = [
+    "accelerate>=1.14.0",
+    "datasets>=5.0.0",
+    "flash-attention>=1.0.0",
+    "gensim>=4.4.0",
+    "ipykernel>=7.3.0",
+    "pandas>=3.0.3",
+    "sentence-transformers>=5.6.0",
+    "torch>=2.12.1",
+    "transformers>=5.12.1",
+    "tqdm",
+    "scikit-learn>=1.9.0",
+]
